@@ -10,7 +10,7 @@ f = open('compliments.txt', 'r', encoding='UTF-8')
 compliments  = f.read().split('\n')
 f.close()
 # Создаем бота
-bot = telebot.TeleBot('5694228118:AAE6rU2EadQ5BL2NIlj-9QxhkQPCWWKwtpY')
+bot = telebot.TeleBot('используйте ваш токен')
 # Команда start
 @bot.message_handler(commands=["start"])
 def start(m, res=False):
